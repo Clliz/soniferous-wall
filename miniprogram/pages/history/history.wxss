@@ -1,0 +1,11 @@
+.container {
+  padding: 20px;
+}
+.history-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}

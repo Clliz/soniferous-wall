@@ -1,0 +1,4 @@
+<view class="container">
+  <text>{{message}}</text>
+  <button bindtap="navigateToRegister">开始</button>
+</view>

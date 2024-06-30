@@ -1,0 +1,20 @@
+<view class="container">
+  <text>请设置您的信息</text>
+  <input placeholder="昵称" bindinput="bindNicknameInput" value="{{nickname}}" />
+  <picker mode="date" bindchange="bindBirthdateChange" value="{{birthdate}}">
+    <view class="picker">
+      出生日期：{{birthdate}}
+    </view>
+  </picker>
+  <picker mode="selector" range="{{['parent', 'child']}}" bindchange="bindRoleChange" value="{{role}}">
+    <view class="picker">
+      身份：{{role === 'parent' ? '亲长' : '孩子'}}
+    </view>
+  </picker>
+  <picker mode="selector" range="{{['male', 'female']}}" bindchange="bindGenderChange" value="{{gender}}">
+    <view class="picker">
+      性别：{{gender === 'male' ? '男' : '女'}}
+    </view>
+  </picker>
+  <button bindtap="submit">提交</button>
+</view>

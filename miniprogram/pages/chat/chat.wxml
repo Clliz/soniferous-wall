@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="message" wx:for="{{messages}}" wx:key="id">
+    <text>{{item.content}}</text>
+  </view>
+  <input placeholder="输入你的消息" bindinput="bindInput" value="{{newMessage}}" />
+  <button bindtap="submitMessage" loading="{{loading}}">发送</button>
+</view>

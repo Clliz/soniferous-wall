@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="task" wx:for="{{tasks}}" wx:key="id">
+    <text>{{item.title}}</text>
+    <text>{{item.progress}}%</text>
+  </view>
+</view>

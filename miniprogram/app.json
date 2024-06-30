@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/profile/profile",
+    "pages/chat/chat",
+    "pages/anonymousWall/anonymousWall",
+    "pages/tasks/tasks",
+    "pages/history/history",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "传声墙",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "AI聊天",
+        "iconPath": "/images/chat.png",
+        "selectedIconPath": "/images/chat_selected.png"
+      },
+      {
+        "pagePath": "pages/anonymousWall/anonymousWall",
+        "text": "匿名墙",
+        "iconPath": "/images/wall.png",
+        "selectedIconPath": "/images/wall_selected.png"
+      },
+      {
+        "pagePath": "pages/tasks/tasks",
+        "text": "任务室",
+        "iconPath": "/images/tasks.png",
+        "selectedIconPath": "/images/tasks_selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/images/profile.png",
+        "selectedIconPath": "/images/profile_selected.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="post" wx:for="{{posts}}" wx:key="id">
+    <text>{{item.content}}</text>
+  </view>
+  <input placeholder="输入你的想法" bindinput="bindInput" value="{{newPost}}" />
+  <button bindtap="submitPost" loading="{{loading}}">提交</button>
+</view>

@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="history-item" wx:for="{{history}}" wx:key="id">
+    <text>{{item.content}}</text>
+    <text>{{item.time}}</text>
+  </view>
+</view>
